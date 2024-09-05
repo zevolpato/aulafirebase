@@ -94,6 +94,6 @@ auth.onAuthStateChanged(user => {
     }
 });
 
-thingsRef
-    .where('uid', '==', user.uid)
-    .orderBy('createdAt') // Requires an index
+//thingsRef
+//    .where('uid', '==', user.uid)
+//    .orderBy('createdAt') // Requires an index
