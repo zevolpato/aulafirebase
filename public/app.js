@@ -51,7 +51,7 @@ auth.onAuthStateChanged(user => {
 
             thingsRef.add({
                 uid: user.uid,
-                name: faker.commerce.productName(),
+                name: user.displayName(),
                 createdAt: serverTimestamp()
             });
         }
